@@ -65,3 +65,11 @@ Starter for testing Spring Boot applications with libraries including:
     <scope>test</scope>
 </dependency>
 ```
+
+## Spring Profiles
+To be able to configure automatically urls and values depending on environment we want
+* Create application-`environment` file per  environment
+
+In Intellij:
+* Add VM Options to deploys
+  * -Dspring.profiles.active= `profile`
