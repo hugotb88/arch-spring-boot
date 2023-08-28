@@ -66,6 +66,17 @@ Starter for testing Spring Boot applications with libraries including:
 </dependency>
 ```
 
+## Starter actuator
+Starter for using Spring Boot's Actuator which provides production ready features to help you monitor and manage your application
+
+```
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-actuator</artifactId>
+    <scope>test</scope>
+</dependency>
+```
+
 ## Spring Profiles
 To be able to configure automatically urls and values depending on environment we want
 * Create application-`environment` file per  environment
