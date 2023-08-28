@@ -8,4 +8,9 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 public class HelloWorld {
+
+    @GetMapping("/test")
+    public String test(){
+        return "Hello dogs :) ... and cats";
+    }
 }
